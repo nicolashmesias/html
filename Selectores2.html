@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        div p {
+            color: lightgreen;
+        }
+        article >ul >li {
+            color: blue;
+        }
+        a + a {
+            color: red;
+        }
+        div ~ div {
+            color: purple;
+        }
+    </Style>
+</head>
+<body>
+    Descendientes
+    <div>
+        <h1>Hola</h1>
+        <p>Parrafo</p>
+        <p>Para</p>
+        <p>Continuar</p>
+    </div>
+    Hijos directos
+    <article>
+        <h2>Articulo 1</h2>
+        <p>Contenido del articulo</p>
+        <ul>
+            <li>Etiqueta 1</li>
+            <li>Etiqueta 2</li>
+            <li>Etiqueta 3</li>
+        </ul>
+        </article>
+        Elementos adyacentes
+        <a href="#">Enlace 1</a>
+        <a href="#">Enlace 2</a>
+        <a href="#">Enlace 3</a>
+        Conbinador
+        <div>Elemento 1</div>
+        <div>Elemento 2</div>
+        <div>Elemento 3</div>
+</body>
+</html>

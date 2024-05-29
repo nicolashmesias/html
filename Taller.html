@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller</title>
+<style>
+
+    *{
+        background-color: seashell;
+        
+    }
+    p{
+        color: blue;
+    }
+    h2{
+        font-size: 24px;
+    }
+    .destacado{
+        background-color: yellow;
+        font-weight: bold;
+    }
+    #miElemento {
+        border: red;
+        font-style: italic;
+    }
+    #button{
+        padding: 10px;
+        background: lightgray;
+        color: cornflowerblue;
+    }
+    #button:hover {
+        padding: 10px;
+        background: blue;
+        color: white;
+    }
+    #button:active {
+        padding: 30px;
+        background: gray;
+        color: rgb(136, 124, 240);
+    }
+    a[href="www.facebook.com"]{
+        color: black;
+        background-color: rgb(202, 154, 247);
+        
+
+    }
+    a:hover{
+        color: violet;
+        cursor: pointer;
+
+    }
+    a:visited {
+        color: aquamarine;
+    }
+
+    #img-contenedor img {
+    transition: all .9s ease;
+    width:100%;
+
+    }
+
+    #img-contenedor:hover img {  
+    transform:scale(1.25);
+
+    }
+
+    #img-contenedor {
+    width:300px;
+    height:180px;
+    overflow:hidden;
+
+    }
+
+    input [type="text"] {
+        padding: 5px;
+        color: cadetblue;
+        border: solid red;
+        border-color: rgb(245, 71, 71);
+    }
+    
+    div li {
+        color: red;
+        align-items: center;
+    }
+    
+    div > p {
+        color: #5082D6;
+    }
+    p + p {
+        color: yellowgreen;
+    }
+    div ~ p {
+        color: salmon;
+        font-size: 28px;
+    }
+</style>
+</head>
+<body>
+    <h1>Bienvenido</h1>
+    <h2>Categorias</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti fugit sed tenetur. Tempora iure ad fugiat dolore maiores quam qui, error at sapiente consectetur itaque? Illo laboriosam accusantium laborum nemo!</p>
+    <div class="destacado">Contenido destacado
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+    <div id="img-contenedor">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrFx-fqNbZ8-JJUqiG7M016RLh5Sd8NFrvN5h4_EmWbQ&s" alt="" />
+    </div>
+    </div>
+    <div id="imagen">Contenido con ID
+        <p>Nombre de usuario</p>
+    </div>
+    <a href="www.facebook.com">Facebook</a>
+
+    <input type="text">
+
+    <p>Textos</p>
+    <div>
+        <p>Texto 1</p>
+        <p>Texto 2</p>
+        <p>Texto 3</p>
+    </div>
+    <button id="button">Aceptar</button>
+</body>
+</html>
